@@ -1,1 +1,0 @@
-<button class="pg-btn-white" wire:confirm='Anda akan menghapus Mesin Anastesi' wire:click="destroy(11)" >Delete</button><?php /**PATH /Users/achmadrifqi/Documents/Development/Laravel/test/inventory-RS-/storage/framework/views/3a78befc2972c8039201ae700e730533.blade.php ENDPATH**/ ?>

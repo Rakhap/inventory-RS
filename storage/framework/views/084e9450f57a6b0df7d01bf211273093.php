@@ -1,1 +1,0 @@
-<button class="pg-btn-white" wire:confirm='Anda akan menghapus C-arm Monitor' wire:click="destroy(26)" >Delete</button><?php /**PATH /Users/achmadrifqi/Documents/Development/Laravel/test/inventory-RS-/storage/framework/views/ccaf99e230cf68fee90de969606e2f1c.blade.php ENDPATH**/ ?>

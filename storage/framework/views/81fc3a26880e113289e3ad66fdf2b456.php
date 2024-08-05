@@ -1,1 +1,0 @@
-<button class="pg-btn-white" wire:confirm='Anda akan menghapus Suction portable' wire:click="destroy(107)" >Delete</button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/26c436217d783ec545f0a2a06afe62be.blade.php ENDPATH**/ ?>

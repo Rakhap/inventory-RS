@@ -1,1 +1,0 @@
-<button id="21"><a href wire:confirm="asdf">asd</a></button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/293c15c7558b3471c75ff823963500ad.blade.php ENDPATH**/ ?>

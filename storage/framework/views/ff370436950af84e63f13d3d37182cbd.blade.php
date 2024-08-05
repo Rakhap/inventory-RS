@@ -1,1 +1,0 @@
-<button id="20"><span wire:clik>asd/</button>

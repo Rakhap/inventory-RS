@@ -1,1 +1,0 @@
-<button class="pg-btn-white" wire:confirm='Anda akan menghapus 23' wire:click="destroy(23)" >p gelud</button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/1a9edca37dac053aaa384f7e15c0993b.blade.php ENDPATH**/ ?>

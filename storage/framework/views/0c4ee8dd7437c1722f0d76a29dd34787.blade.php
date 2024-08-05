@@ -1,1 +1,0 @@
-<button primary icon="pencil" wire:click="destroy(row->id)" >p gelud</button>

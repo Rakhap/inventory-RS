@@ -1,1 +1,0 @@
-<button class="pg-btn-white" wire:confirm='Anda akan menghapus Alat mata Mikroskop' wire:click="destroy(23)" >Delete</button>

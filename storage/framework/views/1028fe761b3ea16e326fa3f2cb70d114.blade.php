@@ -1,1 +1,0 @@
-<button primary icon="pencil" wire:click="destroy('15')" >p gelud</button>

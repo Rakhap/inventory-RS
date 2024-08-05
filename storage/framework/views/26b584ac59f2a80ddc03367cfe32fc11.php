@@ -1,1 +1,0 @@
-<button wire:confirm="Are you sure you want to edit?"><button wire.click= wire:navigate>Delete</button></button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/ce56c1d349b67302acc43e127f646717.blade.php ENDPATH**/ ?>

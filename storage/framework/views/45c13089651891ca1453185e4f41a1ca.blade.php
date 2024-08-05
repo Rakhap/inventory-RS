@@ -1,1 +1,0 @@
-<button wire.confirm="" wire:click="destroy(17)" >p gelud</button>

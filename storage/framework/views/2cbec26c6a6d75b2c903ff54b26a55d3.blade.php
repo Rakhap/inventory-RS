@@ -1,1 +1,0 @@
-<button class="pg-btn-white" wire:confirm='Anda akan menghapus Syring Pump 03' wire:click="destroy(33)" >Delete</button>

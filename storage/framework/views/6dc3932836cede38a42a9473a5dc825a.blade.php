@@ -1,1 +1,0 @@
-<button wire:confirm="Are you sure you want to edit?">Delete</button>

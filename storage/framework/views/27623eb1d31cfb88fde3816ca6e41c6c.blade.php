@@ -1,1 +1,0 @@
-<button class="pg-btn-white" wire:confirm="alhamdulillah" wire:click="destroy(12)" >p gelud</button>

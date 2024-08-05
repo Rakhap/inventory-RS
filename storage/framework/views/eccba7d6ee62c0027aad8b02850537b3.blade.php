@@ -1,1 +1,0 @@
-<button class="pg-btn-white" wire:confirm='Anda akan menghapus THT enduscopy ' wire:click="destroy(28)" >Delete</button>

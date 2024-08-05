@@ -1,1 +1,0 @@
-<button wire:confirm.prompt="Are you sure you want to edit? |EDIT"></button>

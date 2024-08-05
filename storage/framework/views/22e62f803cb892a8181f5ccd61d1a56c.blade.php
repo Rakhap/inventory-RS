@@ -1,1 +1,0 @@
-<button wire:confirm="Are you sure you want to edit?"><x-link url="asdf">s</x-link></button>

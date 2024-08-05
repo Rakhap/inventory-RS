@@ -1,1 +1,0 @@
-<button wire.confirm="" wire:click="destroy(20)" >p gelud</button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/223150d9a2e369eec87f2cce2b431a58.blade.php ENDPATH**/ ?>

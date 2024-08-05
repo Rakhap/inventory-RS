@@ -1,1 +1,0 @@
-<button class="pg-btn-white" wire:confirm='Anda akan menghapus Suction Pump portable' wire:click="destroy(16)" >p gelud</button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/ea74c1cffa511cbcbc556b8e08ba0922.blade.php ENDPATH**/ ?>

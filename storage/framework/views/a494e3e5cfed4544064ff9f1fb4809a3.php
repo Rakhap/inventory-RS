@@ -1,1 +1,0 @@
-<button class="pg-btn-white" wire:confirm='Anda akan menghapus komprimeter' wire:click="destroy(108)" >Delete</button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/e1712ba28ced7a53b3133b311d0ef170.blade.php ENDPATH**/ ?>

@@ -1,1 +1,0 @@
-<button ><s[a wire.click='destroy' wire:confirm='Anda akan menghapus Suction Pump portable'>Delete</s></button>

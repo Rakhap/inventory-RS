@@ -1,2 +1,0 @@
-<button wire:confirm.prompt="IYO A ? |delete" class="pg-btn-white dark:ring-pg-primary-600 dark:border-pg-primary-600 dark:hover:bg-pg-primary-700 
-                        dark:ring-offset-pg-primary-800 dark:text-pg-primary-300 dark:bg-pg-primary-700">Delete </button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/c253c20a4c941a257c59157b4837d22c.blade.php ENDPATH**/ ?>

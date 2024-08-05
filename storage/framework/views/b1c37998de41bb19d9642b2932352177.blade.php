@@ -1,1 +1,0 @@
-<button wire:confirm="Are you sure you want to edit?"><a href='/inventory/22' wire:navigate>Delete</a></button>

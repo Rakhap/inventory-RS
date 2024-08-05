@@ -1,1 +1,0 @@
-<button class="pg-btn-white" wire:confirm='Anda akan menghapus Laringoskop' wire:click="destroy(47)" >Delete</button><?php /**PATH /Users/achmadrifqi/Documents/Development/Laravel/test/inventory-RS-/storage/framework/views/f0f55d0e4cb022fd3b9643addd317de2.blade.php ENDPATH**/ ?>

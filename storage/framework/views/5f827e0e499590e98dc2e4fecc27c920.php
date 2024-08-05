@@ -1,1 +1,0 @@
-<button primary icon="pencil" wire:click="destroy(12')" >p gelud</button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/38088b9d4f56fed411b8f7143a896c2b.blade.php ENDPATH**/ ?>

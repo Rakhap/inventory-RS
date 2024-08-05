@@ -1,1 +1,0 @@
-<button class="pg-btn-white" wire:confirm='Anda akan menghapus Laparascopy Usus buntu' wire:click="destroy(25)" >p gelud</button>

@@ -1,1 +1,0 @@
-<button class="pg-btn-white" wire:confirm='Anda akan menghapus Tensimeter' wire:click="destroy(1)" >Delete</button><?php /**PATH /Users/achmadrifqi/Documents/Development/Laravel/test/inventory-RS-/storage/framework/views/5da365a1870f7072accead6387ce7152.blade.php ENDPATH**/ ?>

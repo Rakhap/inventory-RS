@@ -1,1 +1,0 @@
-<button ><a href='/inventory/11' wire:navigate class='pg-btn-white'>Edit</a></button><?php /**PATH /Users/achmadrifqi/Documents/Development/Laravel/test/inventory-RS-/storage/framework/views/599d4d383908efdc50df8cc5dbe6a1b0.blade.php ENDPATH**/ ?>

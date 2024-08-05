@@ -1,1 +1,0 @@
-<button class="pg-btn-white" wire:confirm='Anda akan menghapus Pulse Oximeter ' wire:click="destroy(38)" >Delete</button>

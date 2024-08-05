@@ -1,2 +1,0 @@
-<button wire:click="$dispatch(&#039;edit&#039;, JSON.parse(&#039;{\u0022rowId\u0022:35}&#039;))" class="pg-btn-white dark:ring-pg-primary-600 dark:border-pg-primary-600 dark:hover:bg-pg-primary-700 
-                        dark:ring-offset-pg-primary-800 dark:text-pg-primary-300 dark:bg-pg-primary-700" id="35">Edit</button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/00abfe8f73c0e1f9f979f1ffae79971f.blade.php ENDPATH**/ ?>

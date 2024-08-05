@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Mesin Anastesi' wire:click="destroy(10)" >Delete</button><?php /**PATH /var/www/html/storage/framework/views/5df3da6a4c8afb278151c8e9b6bf08af.blade.php ENDPATH**/ ?>

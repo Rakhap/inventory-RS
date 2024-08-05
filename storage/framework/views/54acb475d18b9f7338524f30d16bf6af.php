@@ -1,1 +1,0 @@
-<button class="pg-btn-white" wire:confirm='Anda akan menghapus Alat mata Mikroskop' wire:click="destroy(23)" >Delete</button><?php /**PATH /Users/achmadrifqi/Documents/Development/Laravel/test/inventory-RS-/storage/framework/views/549c4b98ae29613f080edce42df913e2.blade.php ENDPATH**/ ?>

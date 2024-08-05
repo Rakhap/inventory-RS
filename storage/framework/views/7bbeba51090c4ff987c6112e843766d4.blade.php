@@ -1,1 +1,0 @@
-<button ><a href='/inventory/22' wire:navigate>Edit</a></button>

@@ -1,1 +1,0 @@
-<button ><button wire.click='destroy' wire:confirm='Anda akan menghapus Alat mata Mikroskop'>Delete</button></button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/218743420a5650750033115490b980f9.blade.php ENDPATH**/ ?>

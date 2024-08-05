@@ -1,1 +1,0 @@
-<button class="pg-btn-white" wire:confirm='Anda akan menghapus Defibilator' wire:click="destroy(34)" >Delete</button>

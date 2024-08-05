@@ -1,0 +1,1 @@
+<button ><a href='/inventory/2' wire:navigate class='pg-btn-white'>Edit</a></button><?php /**PATH /var/www/html/storage/framework/views/e3aefb560b64a87dbebf7f34660d92a2.blade.php ENDPATH**/ ?>

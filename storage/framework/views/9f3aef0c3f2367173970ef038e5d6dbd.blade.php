@@ -1,1 +1,0 @@
-<button class="pg-btn-white" wire:confirm='Anda akan menghapus THT Suction' wire:click="destroy(30)" >Delete</button>

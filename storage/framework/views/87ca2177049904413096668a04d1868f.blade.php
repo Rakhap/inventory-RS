@@ -1,1 +1,0 @@
-<button ><a href='/inventory/22' wire:navigate class='pg-btn-white'>Edit</a></button>

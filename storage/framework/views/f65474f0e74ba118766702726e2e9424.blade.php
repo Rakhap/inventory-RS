@@ -1,1 +1,0 @@
-<button title="Edit Record" wire:confirm="IYO A ?">Delete</button>

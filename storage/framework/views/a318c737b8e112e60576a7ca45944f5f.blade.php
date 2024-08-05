@@ -1,1 +1,0 @@
-<button ><button wire.click='destroy' wire:confirm='Anda akan menghapus Pasien Monitor'>Delete</button></button>

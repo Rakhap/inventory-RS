@@ -1,1 +1,0 @@
-<button primary icon="pencil" wire:click="editStock('20')" >p gelud</button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/af5c671b230213ce8baf852a3b78a725.blade.php ENDPATH**/ ?>

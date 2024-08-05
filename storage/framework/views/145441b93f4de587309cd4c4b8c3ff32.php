@@ -1,1 +1,0 @@
-<button wire:click="$dispatch(&#039;destroy&#039;, JSON.parse(&#039;{\u0022rowId\u0022:13}&#039;))" class="bg-red-600 text-white hover:bg-red-700 border-red-600" id="13">Delete </button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/baea7597324a0b500dd85297871df56e.blade.php ENDPATH**/ ?>

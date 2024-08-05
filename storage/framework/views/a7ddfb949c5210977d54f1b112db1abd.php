@@ -1,1 +1,0 @@
-<button class="pg-btn-white" wire:confirm='Anda akan menghapus asdfasdf' wire:click="destroy(114)" >Delete</button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/020ad50f6f11d27506226c0e639a3a2e.blade.php ENDPATH**/ ?>

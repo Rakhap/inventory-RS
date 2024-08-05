@@ -1,1 +1,0 @@
-<button wire:confirm="IYO A ?"></button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/9a558eb28a6eca2bc52e890b1c1111ee.blade.php ENDPATH**/ ?>

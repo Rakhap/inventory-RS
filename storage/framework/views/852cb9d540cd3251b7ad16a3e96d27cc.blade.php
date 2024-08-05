@@ -1,1 +1,0 @@
-<button class="pg-btn-white" wire:confirm='Anda akan menghapus THT (OP amandel)' wire:click="destroy(29)" >Delete</button>

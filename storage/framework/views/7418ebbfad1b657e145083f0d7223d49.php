@@ -1,2 +1,0 @@
-<button href="http://127.0.0.1:8000/deleted" class="pg-btn-white dark:ring-pg-primary-600 dark:border-pg-primary-600 dark:hover:bg-pg-primary-700 
-                        dark:ring-offset-pg-primary-800 dark:text-pg-primary-300 dark:bg-pg-primary-700" id="12">Delete </button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/3b3d117a7d7c220d1f13cb40a5e0bc32.blade.php ENDPATH**/ ?>

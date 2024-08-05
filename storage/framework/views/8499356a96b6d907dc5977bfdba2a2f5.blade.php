@@ -1,1 +1,0 @@
-<button ><a href=''wire.click.prevent='destroy' wire:confirm='Anda akan menghapus Alat mata Mikroskop'>Delete</a></button>

@@ -1,1 +1,0 @@
-<button primary icon="pencil" wire:click="editStock('16')" <>/butto><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/aa61b083c57e5fef322ec2e6bd3b927b.blade.php ENDPATH**/ ?>
