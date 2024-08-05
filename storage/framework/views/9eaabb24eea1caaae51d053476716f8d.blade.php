@@ -1,0 +1,1 @@
+<button wire:confirm.prompt="IYO A ? |delete"></button>

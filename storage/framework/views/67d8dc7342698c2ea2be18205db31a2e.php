@@ -1,0 +1,2 @@
+<button class="pg-btn-white dark:ring-pg-primary-600 dark:border-pg-primary-600 dark:hover:bg-pg-primary-700 
+                        dark:ring-offset-pg-primary-800 dark:text-pg-primary-300 dark:bg-pg-primary-700"><a href='/inventory/16' wire:navigate>Edit</a></button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/a6281e2ec58bc8bb2b2cf4b77597c5ed.blade.php ENDPATH**/ ?>

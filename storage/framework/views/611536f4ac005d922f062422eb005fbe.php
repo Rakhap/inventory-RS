@@ -1,0 +1,1 @@
+<button id="17">Delete </button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/356c840fa247ab37c11e2f62d60507b9.blade.php ENDPATH**/ ?>

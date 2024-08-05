@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm="Anda akan menghapus" wire:click="destroy(17)" >p gelud</button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/4acd47da94143d9f9fe8836a9932972d.blade.php ENDPATH**/ ?>

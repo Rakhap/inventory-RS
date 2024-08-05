@@ -1,0 +1,88 @@
+<svg width="440" height="440" viewBox="0 0 440 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.1" clip-path="url(#clip0_25_39)">
+<path d="M440 0V110H330L440 0Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M330 0L275 55V0H330Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M275 55H220V0L275 55Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M275 82.5V55L247.5 82.5H275Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M220 82.5H247.5L220 55V82.5Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M247.5 110V82.5H220L247.5 110Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M247.5 110H275L247.5 82.5V110Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M330 110L275 55H330V110Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M330 110V165L275 110H330Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M275 110H247.5L275 137.5V110Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M247.5 110L220 137.5V110H247.5Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M220 165V137.5H247.5L220 165Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M275 137.5V165L247.5 137.5H275Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M275 165H247.5L275 192.5V165Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M247.5 165V192.5H220L247.5 165Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M247.5 220V192.5H220L247.5 220Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M275 192.5L247.5 220H275V192.5Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M330 165V220H275L330 165Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M385 110H440V165L385 110Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M385 137.5V110L357.5 137.5H385Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M357.5 137.5L330 110H357.5V137.5Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M330 165V137.5L357.5 165H330Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M385 165H357.5L385 137.5V165Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M385 165H330L385 220V165Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M385 165L440 220V165H385Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M220 0V55H165L220 0Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M165 0V55H110L165 0Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M165 55H110V110L165 55Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M165 55L220 110V55H165Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M110 0H0L110 110V0Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M110 110L55 165H110V110Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M55 165V110L0 165H55Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M0 220L55 165H0V220Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M110 165V220H55L110 165Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M220 110V165H165L220 110Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M165 165V110H110L165 165Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M165 165L110 220V165H165Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M165 220L220 165H165V220Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M220 247.5L192.5 220V247.5H220Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M192.5 220H165L192.5 247.5V220Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M192.5 247.5L165 275H192.5V247.5Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M192.5 247.5H220V275L192.5 247.5Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M165 247.5V220L137.5 247.5H165Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M137.5 247.5V220L110 247.5H137.5Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M137.5 247.5V275L110 247.5H137.5Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M165 275H137.5V247.5L165 275Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M110 275V330H165L110 275Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M165 330H220L165 275V330Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M110 275L55 220V275H110Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M55 275V220H0L55 275Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M55 330V275L0 330H55Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M55 275V330L110 275H55Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M110 440V330H0L110 440Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M192.5 357.5L220 330H192.5V357.5Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M192.5 357.5H165V330L192.5 357.5Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M165 385L192.5 357.5V385H165Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M192.5 385L220 357.5V385H192.5Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M165 385V330H110L165 385Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M110 385V440L165 385H110Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M220 440V385H165L220 440Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M440 275V220H385L440 275Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M330 275L385 220H330V275Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M385 275L357.5 302.5H385V275Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M357.5 302.5L330 275V302.5H357.5Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M330 302.5H357.5V330L330 302.5Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M385 330V302.5H357.5L385 330Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M440 330H385V275L440 330Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M330 275L275 220V275H330Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M275 275L220 220H275V275Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M220 275V330H275L220 275Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M330 275H302.5L330 302.5V275Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M302.5 275V302.5H275L302.5 275Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M275 330L302.5 302.5H275V330Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M302.5 302.5L330 330V302.5H302.5Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M220 440L330 330V440H220Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M440 385L385 330H440V385Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M385 330V385H330L385 330Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M385 440L330 385H385V440Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+<path d="M440 385V440H385L440 385Z" stroke="#026766" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_25_39">
+<rect width="440" height="440" fill="white"/>
+</clipPath>
+</defs>
+</svg>

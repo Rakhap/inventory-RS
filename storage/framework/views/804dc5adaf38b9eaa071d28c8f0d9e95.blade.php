@@ -1,0 +1,1 @@
+<button class wire:confirm="alhamdulillah" wire:click="destroy(17)" >p gelud</button>

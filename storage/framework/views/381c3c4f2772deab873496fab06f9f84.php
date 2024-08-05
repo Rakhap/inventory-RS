@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Alat Mata Veco' wire:click="destroy(24)" >p gelud</button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/d997a16ce3a7e4e17f6e5342361dacea.blade.php ENDPATH**/ ?>

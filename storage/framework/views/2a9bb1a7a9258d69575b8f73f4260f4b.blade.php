@@ -1,0 +1,1 @@
+<button ><a href="#" wire:click.prevent="$dispatch("destroy")" wire:confirm="Are you sure you want to delete this post?">Delete</a></button>

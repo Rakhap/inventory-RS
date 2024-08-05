@@ -1,0 +1,1 @@
+<button ><a href=''wire.click.prevent='destroy' wire:confirm='Anda akan menghapus Suction Pump portable'>Delete</a></button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/cde7f9e769e07a369bcdf224459a00ef.blade.php ENDPATH**/ ?>

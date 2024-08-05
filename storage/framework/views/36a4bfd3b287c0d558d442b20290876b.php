@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Alat mata Mikroskop' wire:click="destroy(23)" >p gelud</button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/522ed41a24dfc58a1d1af1f992e8932e.blade.php ENDPATH**/ ?>

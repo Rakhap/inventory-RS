@@ -1,0 +1,1 @@
+<button ><a href="/" wire:navigate>Edit</a></button>

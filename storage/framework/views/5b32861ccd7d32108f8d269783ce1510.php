@@ -1,0 +1,2 @@
+<button href="http://127.0.0.1:8000/inventory?id=15" class="pg-btn-white dark:ring-pg-primary-600 dark:border-pg-primary-600 dark:hover:bg-pg-primary-700 
+                        dark:ring-offset-pg-primary-800 dark:text-pg-primary-300 dark:bg-pg-primary-700" wire:confirm.prompt="IYO A ? |Confirm">Delete </button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/40f35c459d6171f6cf1937dd363e98b5.blade.php ENDPATH**/ ?>

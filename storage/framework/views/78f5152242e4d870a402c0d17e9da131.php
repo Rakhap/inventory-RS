@@ -1,0 +1,1 @@
+<button ><a href=''wire.click.prevent='destroy' wire:confirm='Anda akan menghapus Pasien Monitor'>Delete</a></button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/d2b411e8b6dc174bd99613df24ed941e.blade.php ENDPATH**/ ?>

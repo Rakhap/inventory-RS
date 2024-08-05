@@ -1,0 +1,1 @@
+<button id="20"><a href="/" wire:confirm="asdf">asd</a></button>

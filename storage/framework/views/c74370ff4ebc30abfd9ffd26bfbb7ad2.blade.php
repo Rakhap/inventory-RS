@@ -1,0 +1,1 @@
+<button ><a href=''wire.click.prevent='destroy' wire:confirm='Anda akan menghapus Mesin Anastesi kok'>Delete</a></button>

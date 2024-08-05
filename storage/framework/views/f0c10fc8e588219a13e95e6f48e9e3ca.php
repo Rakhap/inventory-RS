@@ -1,0 +1,1 @@
+<button ><a href="#" wire:click="destroy" wire:confirm="Are you sure you want to delete this post?" >Delete</a></button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/7e92af6bcf04814090dc6b340446f508.blade.php ENDPATH**/ ?>

@@ -1,0 +1,2 @@
+<a href="http://127.0.0.1:8000/inventory/edit/23" class="pg-btn-white dark:ring-pg-primary-600 dark:border-pg-primary-600 dark:hover:bg-pg-primary-700 
+                        dark:ring-offset-pg-primary-800 dark:text-pg-primary-300 dark:bg-pg-primary-700">Edit</a><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/ab8fa8cbb0d3c95a8b3bcde740c844ef.blade.php ENDPATH**/ ?>

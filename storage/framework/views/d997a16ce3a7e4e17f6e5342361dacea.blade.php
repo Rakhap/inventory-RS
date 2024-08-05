@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Alat Mata Veco' wire:click="destroy(24)" >p gelud</button>

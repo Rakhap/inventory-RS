@@ -1,0 +1,1 @@
+<button wire:confirm.prompt="IYO A ? |delete">Delete </button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/623993549c79836f72051fa1c81116e7.blade.php ENDPATH**/ ?>

@@ -1,0 +1,1 @@
+<button wire:click="$dispatch(&#039;destroy&#039;, JSON.parse(&#039;{\u0022rowId\u0022:15}&#039;))" class="pg-btn-white dark:ring-red-600 dark:border-red-600 dark:hover:bg-red-700 dark:ring-offset-red-800 dark:text-red-300 dark:bg-red-700 bg-red-600 hover:bg-red-700 border-red-600 text-white" id="15">Delete</button>

@@ -1,0 +1,1 @@
+<x-button primary icon="pencil" wire:click="editStock('18')" />

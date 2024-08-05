@@ -1,0 +1,1 @@
+<button id="12"><span wire:confirm="asdf">asd</span></button>

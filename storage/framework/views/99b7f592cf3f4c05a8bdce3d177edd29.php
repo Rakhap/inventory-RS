@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Alat Mata Veco' wire:click="destroy(24)" >Delete</button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/cacf8898647b224e8e05c9c95b328406.blade.php ENDPATH**/ ?>

@@ -1,0 +1,1 @@
+<button ><a wire.click.='destroy' wire:confirm='Anda akan menghapus Mesin Anastesi kok'>Delete</a></button><?php /**PATH D:\RS UMM\inventaris\storage\framework\views/e252294a0689485e8d860f9cf4ed5bf6.blade.php ENDPATH**/ ?>
