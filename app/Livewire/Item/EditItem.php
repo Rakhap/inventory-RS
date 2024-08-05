@@ -3,6 +3,7 @@
 namespace App\Livewire\Item;
 
 use App\Livewire\Forms\Item\ItemForm;
+use Livewire\Attributes\Title;
 use Livewire\Component;
 use App\Models\Inventory;
 
@@ -22,12 +23,12 @@ class EditItem extends Component
     }
 
 
-
+    #[Title('Edit Item')]
     public function render($id = null)
     {
 
         $inventory = Inventory::find($this->id);
-    
+
         if ($inventory) {
             $this->updateData = $inventory;
             $this->itemForm->fill([

@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Suction portable' wire:click="destroy(45)" >Delete</button><?php /**PATH /Users/achmadrifqi/Documents/Development/Laravel/test/inventory-RS-/storage/framework/views/702f1d6f51b6f2d84f064460fc26078a.blade.php ENDPATH**/ ?>

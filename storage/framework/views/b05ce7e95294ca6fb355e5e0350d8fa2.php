@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Defibilator' wire:click="destroy(34)" >Delete</button><?php /**PATH /Users/achmadrifqi/Documents/Development/Laravel/test/inventory-RS-/storage/framework/views/e8d97c5d4fe7e9f20c31a5bc14b17c82.blade.php ENDPATH**/ ?>

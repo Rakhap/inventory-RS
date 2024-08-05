@@ -6,14 +6,13 @@
         APP LOGO
         <span class="block text-xs text-gray-400 font-normal">Versi app 4.0</span>
     </a>
-
     <x-sidebar-items>
         <x-sidebar-item url="/" :active="request()->routeIs('dashboard')">
             <x-solar-widget-4-linear class="w-5 h-5"/>
             <span>Dashboard</span>
         </x-sidebar-item>
 
-        <x-sidebar-item url="/inventory" :active="request()->routeIs('inventory')">
+        <x-sidebar-item url="/inventory" :active="str_contains(request()->route()->uri(), 'inventory')">
             <x-solar-bedside-table-2-linear class="w-5 h-5"/>
             <span>Inventory</span>
         </x-sidebar-item>

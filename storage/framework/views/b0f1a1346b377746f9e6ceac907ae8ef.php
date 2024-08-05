@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus THT Suction' wire:click="destroy(30)" >Delete</button><?php /**PATH /Users/achmadrifqi/Documents/Development/Laravel/test/inventory-RS-/storage/framework/views/9f3aef0c3f2367173970ef038e5d6dbd.blade.php ENDPATH**/ ?>

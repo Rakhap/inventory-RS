@@ -1,6 +1,6 @@
 <?php
 
-use App\Livewire\Item\Createitem;
+use App\Livewire\Item\CreateItem;
 use App\Livewire\Item\EditItem;
 use App\Livewire\Item\Export;
 use App\Livewire\Item\TableItem;
@@ -20,7 +20,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/user/account', account::class)->name('profile');
 
     Route::get('/inventory', Item::class)->name('inventory');
-    Route::get('/inventory/form', Createitem::class)->name('create-item');
+    Route::get('/inventory/form', CreateItem::class)->name('create-item');
 
     Route::get('/inventory/{id}', EditItem::class)->name('item.edit');
     // Route::delete('/inventory', EditItem::class)->name('item.delete');

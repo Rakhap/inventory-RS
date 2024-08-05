@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Lampu Operasi' wire:click="destroy(4)" >Delete</button><?php /**PATH /Users/achmadrifqi/Documents/Development/Laravel/test/inventory-RS-/storage/framework/views/9b2d885b995fe0b39f2cd2b076d94056.blade.php ENDPATH**/ ?>

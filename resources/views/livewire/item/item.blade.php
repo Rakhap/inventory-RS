@@ -1,4 +1,4 @@
-<div x-on:inventory-created.window="$store.toast.trigger({message : 'Berhasil menambahkan barang'})">
+<div x-on:inventory-created.window="$store.toast.trigger({message : 'Berhasil menambahkan barang'})" class="space-y-6">
     @if (session('item-success'))
         <div x-init="$store.toast.trigger({message : '{{session('item-success')}}', type: 'success'})"></div>
     @endif
@@ -8,7 +8,6 @@
     @endif
 
     <x-section>
-    <!-- <button wire:click="delete" wire:confirm="Are you sure you want to edit?">Delete</button> -->
         <div class="flex gap-2 flex-wrap">
             <x-link url="/inventory/form">Add Item</x-link>
             <x-button type="button" x-on:click="$wire.showModal = !$wire.showModal">Import</x-button>

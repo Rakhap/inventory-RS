@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Infant Warmer' wire:click="destroy(31)" >Delete</button><?php /**PATH /Users/achmadrifqi/Documents/Development/Laravel/test/inventory-RS-/storage/framework/views/5db4b5b7f3d25eb7c4089e4e40c4bdbf.blade.php ENDPATH**/ ?>

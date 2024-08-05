@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus ESU' wire:click="destroy(8)" >Delete</button>

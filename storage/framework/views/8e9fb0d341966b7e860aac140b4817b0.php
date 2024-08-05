@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Surgical Drill' wire:click="destroy(49)" >Delete</button><?php /**PATH /Users/achmadrifqi/Documents/Development/Laravel/test/inventory-RS-/storage/framework/views/1c57198dfee09430b9182b0437d036ad.blade.php ENDPATH**/ ?>

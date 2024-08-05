@@ -2,23 +2,23 @@
 
 namespace App\Livewire\Item;
 
+use Livewire\Attributes\Title;
 use Livewire\Component;
 use App\Models\Inventory;
 use App\Livewire\Forms\Item\ItemForm;
-use App\Livewire\Item\Item;
-use PowerComponents\LivewirePowerGrid\Column;
 
-class Createitem extends Component
+class CreateItem extends Component
 {
     public ItemForm $itemForm;
+    #[Title('Tambah Item')]
     public function render()
     {
-        
+
         return view('livewire.item.create-item');
     }
 
     public function saveItem(){
-        // $this->itemForm->validate();
+         $this->itemForm->validate();
         Inventory::create([
             'item_name' => $this->itemForm->item_name,
             'item_brand' => $this->itemForm->item_brand,
@@ -36,7 +36,7 @@ class Createitem extends Component
         $this->dispatch('inventory-created')->to(Item::class);
         $this->redirectIntended('/inventory', navigate:true);
     }
-    
+
     public function refreshtable()
     {
         $this->dispatch('pg:eventRefreshs-TableItem');

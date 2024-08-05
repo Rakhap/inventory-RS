@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Lampu Operasi' wire:click="destroy(3)" >Delete</button>

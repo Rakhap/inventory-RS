@@ -4,12 +4,10 @@ namespace App\Livewire\Item;
 
 use App\Livewire\Forms\Item\ItemForm;
 use App\Models\Inventory;
-use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Builder;
 use PowerComponents\LivewirePowerGrid\Button;
 use PowerComponents\LivewirePowerGrid\Column;
 use PowerComponents\LivewirePowerGrid\Exportable;
-use PowerComponents\LivewirePowerGrid\Facades\Filter;
 use PowerComponents\LivewirePowerGrid\Footer;
 use PowerComponents\LivewirePowerGrid\Header;
 use PowerComponents\LivewirePowerGrid\PowerGrid;
@@ -17,10 +15,8 @@ use PowerComponents\LivewirePowerGrid\PowerGridFields;
 use PowerComponents\LivewirePowerGrid\PowerGridComponent;
 use PowerComponents\LivewirePowerGrid\Traits\WithExport;
 use Illuminate\Support\Facades\Blade;
-// use Blade
-use Livewire\Component;
+use DateTime;
 
-use App\Livewire\Item\EditItem;
 
 final class TableItem extends PowerGridComponent
 {
@@ -29,9 +25,10 @@ final class TableItem extends PowerGridComponent
     public function setUp(): array
     {
         $this->showCheckBox();
+        $date = new DateTime();
 
         return [
-            Exportable::make(fileName: 'export')
+            Exportable::make(fileName: 'export-' . str($date->format('Y-m-d H-i-s')) . '.xlsx')
                 ->striped()
                 ->columnWidth([
                     2 => 30,
@@ -114,14 +111,13 @@ final class TableItem extends PowerGridComponent
         $itemName = $row->item_name;
         return [
             Button::add('edit')
-                ->slot("<a href='/inventory/$id' wire:navigate>Edit</a>")
-                ->class('pg-btn-white'),
+                ->slot("<a href='/inventory/$id' wire:navigate class='pg-btn-white'>Edit</a>"),
 
             Button::add('delete')
                 ->render(function($row){
                   return Blade::render(<<<HTML
                     <button class="pg-btn-white" wire:confirm='Anda akan menghapus $row->item_name' wire:click="destroy($row->id)" >Delete</button>
-                    HTML);  
+                    HTML);
                 })
         ];
     }

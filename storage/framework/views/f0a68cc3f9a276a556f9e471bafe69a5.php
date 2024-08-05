@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Syring Pump ' wire:click="destroy(32)" >Delete</button><?php /**PATH /Users/achmadrifqi/Documents/Development/Laravel/test/inventory-RS-/storage/framework/views/fc5fe7ee36535bf17442ee3b5633cc87.blade.php ENDPATH**/ ?>

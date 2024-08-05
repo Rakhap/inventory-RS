@@ -4,8 +4,8 @@
             <x-slot:icon>
                 <x-solar-users-group-rounded-linear class="w-6 h-6"/>
             </x-slot:icon>
-            <x-slot:value>1230</x-slot:value>
-            <x-slot:description>Total kunjungan per bulan juni</x-slot:description>
+            <x-slot:value>{{$totalItem}}</x-slot:value>
+            <x-slot:description>Jumlah barang di RS</x-slot:description>
         </x-summary-item>
         <x-summary-item>
             <x-slot:icon>
