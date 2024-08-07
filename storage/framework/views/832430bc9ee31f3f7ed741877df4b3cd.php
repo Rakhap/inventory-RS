@@ -1,0 +1,1 @@
+<button ><a href='/inventory/63' wire:navigate class='pg-btn-white'>Edit</a></button><?php /**PATH D:\RS UMM\Inventaris Alkes\inventory-RS\storage\framework\views/fc84e7addbcb8f1d666026c43ee07a6a.blade.php ENDPATH**/ ?>

@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Lampu Operasi' wire:click="destroy(67)" >Delete</button><?php /**PATH D:\RS UMM\Inventaris Alkes\inventory-RS\storage\framework\views/4afb9f8fffd07c6774329620feb400d0.blade.php ENDPATH**/ ?>

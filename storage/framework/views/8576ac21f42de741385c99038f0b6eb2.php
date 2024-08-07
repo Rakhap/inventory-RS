@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus C-arm Monitor' wire:click="destroy(88)" >Delete</button><?php /**PATH D:\RS UMM\Inventaris Alkes\inventory-RS\storage\framework\views/299db203f8dcca99c3661459c0a97d2a.blade.php ENDPATH**/ ?>

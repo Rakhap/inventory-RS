@@ -41,6 +41,7 @@ class EditItem extends Component
                 'masa_kalibrasi' => $inventory->masa_kalibrasi,
                 'kondisi_alat' => $inventory->kondisi_alat,
                 'daya' => $inventory->daya,
+                'stock' => $inventory->stock,
                 'item_keterangan' => $inventory->item_keterangan
             ]);
         }else{

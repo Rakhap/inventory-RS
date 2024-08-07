@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus THT (OP amandel)' wire:click="destroy(91)" >Delete</button><?php /**PATH D:\RS UMM\Inventaris Alkes\inventory-RS\storage\framework\views/11eb485b60137dd031bacbd910a39302.blade.php ENDPATH**/ ?>

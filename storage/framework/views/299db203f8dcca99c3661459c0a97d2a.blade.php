@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus C-arm Monitor' wire:click="destroy(88)" >Delete</button>

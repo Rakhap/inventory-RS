@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Suction Pump portable' wire:click="destroy(77)" >Delete</button><?php /**PATH D:\RS UMM\Inventaris Alkes\inventory-RS\storage\framework\views/e733920e1dc0b1c0f6dc70148b2d518a.blade.php ENDPATH**/ ?>

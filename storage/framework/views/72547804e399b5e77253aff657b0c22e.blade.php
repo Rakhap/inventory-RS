@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus adsfadsf' wire:click="destroy(1)" >Delete</button>

@@ -64,6 +64,9 @@ final class TableItem extends PowerGridComponent
     {
 
         return [
+            Column::make('Ruang','room_name')
+                ->searchable()
+                ->sortable(),
             Column::make('Nama Barang', 'item_name')
                 ->sortable()
                 ->searchable(),
@@ -88,6 +91,9 @@ final class TableItem extends PowerGridComponent
             Column::make('Daya', 'daya')
                 ->sortable()
                 ->searchable(),
+            Column::make('Stock', 'stock')
+                ->sortable()
+                ->searchable(),
             Column::make('keterangan', 'item_keterangan')
                 ->sortable()
                 ->searchable(),
@@ -103,32 +109,32 @@ final class TableItem extends PowerGridComponent
         return [
         ];
     }
-    public ItemForm $itemForm;
 
+    
     public function actions(Inventory $row): array
     {
         $id = $row->id;
         $itemName = $row->item_name;
         return [
             Button::add('edit')
-                ->slot("<a href='/inventory/$id' wire:navigate class='pg-btn-white'>Edit</a>"),
-
+            ->slot("<a href='/inventory/$id' wire:navigate class='pg-btn-white'>Edit</a>"),
+            
             Button::add('delete')
-                ->render(function($row){
-                  return Blade::render(<<<HTML
+            ->render(function ($row) {
+                return Blade::render(<<<HTML
                     <button class="pg-btn-white" wire:confirm='Anda akan menghapus $row->item_name' wire:click="destroy($row->id)" >Delete</button>
                     HTML);
                 })
-        ];
-    }
-    public function destroy(Inventory $rowId)
-    {
-        $post = Inventory::find($rowId);
-        if ($post) {
-            $post->each->delete();
-            session()->flash('item-success', 'Berhasil Menghapus Barang');
-            $this->redirectIntended('/inventory', navigate: true);
+            ];
         }
+        public function destroy(Inventory $rowId)
+        {
+            $post = Inventory::find($rowId);
+            if ($post) {
+                $post->each->delete();
+                session()->flash('item-success', 'Berhasil Menghapus Barang');
+                $this->redirectIntended('/inventory', navigate: true);
+            }
     }
 
 

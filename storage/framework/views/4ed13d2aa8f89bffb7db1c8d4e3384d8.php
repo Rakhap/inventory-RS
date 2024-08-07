@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Alat mata Mikroskop' wire:click="destroy(85)" >Delete</button><?php /**PATH D:\RS UMM\Inventaris Alkes\inventory-RS\storage\framework\views/308f94f04f5ebae13eade6f61e232b60.blade.php ENDPATH**/ ?>

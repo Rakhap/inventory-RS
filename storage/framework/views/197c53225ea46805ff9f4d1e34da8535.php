@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Breathing Circuit Anasthesi 1,6m' wire:click="destroy(48)" >Delete</button><?php /**PATH D:\RS UMM\Inventaris Alkes\inventory-RS\storage\framework\views/2c20d21bbf2667cab50f0008e06f0789.blade.php ENDPATH**/ ?>

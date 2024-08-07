@@ -67,4 +67,16 @@ class ItemForm extends Form
     ])]
     public string | null $item_keterangan = "";
 
+    #[Validate(['stock' => 'required|min:1'], message: [
+        'stock.required' => 'stock tidak boleh kosong.',
+        'stock.min' => 'stock :min karakter'
+    ])]
+    public string | null $stock = "";
+
+    #[Validate(['room_id' => 'required'], message: [
+        'room_id.required' => 'ruangan tidak boleh kosong.',
+    ])]
+    public $room_id = "";
+
+
 }

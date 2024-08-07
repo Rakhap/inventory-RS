@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Suction Pump portable' wire:click="destroy(77)" >Delete</button>

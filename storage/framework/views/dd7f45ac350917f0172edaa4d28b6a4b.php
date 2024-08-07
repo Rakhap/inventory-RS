@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Pulse Oximeter ' wire:click="destroy(100)" >Delete</button><?php /**PATH D:\RS UMM\Inventaris Alkes\inventory-RS\storage\framework\views/78c50c21e81bbdaec275e04056d7e2cd.blade.php ENDPATH**/ ?>

@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Laparascopy Usus buntu' wire:click="destroy(87)" >Delete</button><?php /**PATH D:\RS UMM\Inventaris Alkes\inventory-RS\storage\framework\views/24ee610ac2c457fa983e6dcda97f5e24.blade.php ENDPATH**/ ?>

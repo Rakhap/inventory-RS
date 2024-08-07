@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Tensimeter' wire:click="destroy(63)" >Delete</button>

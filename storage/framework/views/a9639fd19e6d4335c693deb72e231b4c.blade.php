@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus mesin couter' wire:click="destroy(36)" >Delete</button>

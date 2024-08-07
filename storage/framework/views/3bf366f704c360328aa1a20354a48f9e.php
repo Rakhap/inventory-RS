@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus ESU' wire:click="destroy(68)" >Delete</button><?php /**PATH D:\RS UMM\Inventaris Alkes\inventory-RS\storage\framework\views/016b2e63f232562f135fceddbc899ca7.blade.php ENDPATH**/ ?>

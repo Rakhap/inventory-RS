@@ -18,7 +18,7 @@
                     <div>
                         <x-label>File Upload</x-label>
                         <x-input type="file" name="excelFile" wire:model.blur="excelFile"/>
-                            <x-input-error for="excelFile"/>
+                        <x-input-error for="excelFile"/>
                     </div>
                     <div class="flex justify-end items-center gap-4">
                         <x-button type="submit" class="w-max" wire:loading.attr="disabled" wire:target="excelFile">

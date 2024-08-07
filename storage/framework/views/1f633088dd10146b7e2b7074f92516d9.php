@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Defibilator' wire:click="destroy(96)" >Delete</button><?php /**PATH D:\RS UMM\Inventaris Alkes\inventory-RS\storage\framework\views/860f185ef8a5d8e4718300fe6c78cb73.blade.php ENDPATH**/ ?>

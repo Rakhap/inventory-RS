@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus komprimeter' wire:click="destroy(46)" >Delete</button>

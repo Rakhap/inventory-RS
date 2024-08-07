@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus asdfadfs' wire:click="destroy(55)" >Delete</button><?php /**PATH D:\RS UMM\Inventaris Alkes\inventory-RS\storage\framework\views/cc0a9f196a6e8f92acd7041366053226.blade.php ENDPATH**/ ?>

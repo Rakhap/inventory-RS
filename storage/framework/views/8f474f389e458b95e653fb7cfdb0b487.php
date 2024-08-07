@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Syring Pump 03' wire:click="destroy(33)" >Delete</button><?php /**PATH D:\RS UMM\Inventaris Alkes\inventory-RS\storage\framework\views/2cbec26c6a6d75b2c903ff54b26a55d3.blade.php ENDPATH**/ ?>

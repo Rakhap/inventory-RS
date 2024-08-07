@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus mesin couter' wire:click="destroy(36)" >Delete</button><?php /**PATH D:\RS UMM\Inventaris Alkes\inventory-RS\storage\framework\views/a9639fd19e6d4335c693deb72e231b4c.blade.php ENDPATH**/ ?>

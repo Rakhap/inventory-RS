@@ -17,6 +17,11 @@
             <span>Inventory</span>
         </x-sidebar-item>
 
+        <x-sidebar-item url="/room" :active="str_contains(request()->route()->uri(), 'room')">
+            <x-solar-bedside-table-4-linear class="w-5 h-5"/>
+            <span>Room</span>
+        </x-sidebar-item>
+
         <x-sidebar-dropdown>
             <x-solar-users-group-rounded-linear class="w-5 h-5"/>
             <span>Dropdown</span>
@@ -27,21 +32,5 @@
                 <x-sidebar-dropdown-item url="/empty">Sub Menu 3</x-sidebar-dropdown-item>
             </x-slot:dropdown-items>
         </x-sidebar-dropdown>
-
-        <x-sidebar-dropdown>
-            <x-solar-archive-linear class="w-5 h-5"/>
-            <span>Dropdown 2</span>
-
-            <x-slot:dropdown-items>
-                <x-sidebar-dropdown-item url="/empty">Sub Menu 1</x-sidebar-dropdown-item>
-                <x-sidebar-dropdown-item url="/empty">Sub Menu 2</x-sidebar-dropdown-item>
-                <x-sidebar-dropdown-item url="/empty">Sub Menu 3</x-sidebar-dropdown-item>
-            </x-slot:dropdown-items>
-        </x-sidebar-dropdown>
-
-        <x-sidebar-item url="/testing-menu" :active="request()->routeIs('testing')">
-            <x-solar-document-linear class="w-5 h-5"/>
-            <span>Testing Menu</span>
-        </x-sidebar-item>
     </x-sidebar-items>
 </div>

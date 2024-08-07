@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus asdfadfs' wire:click="destroy(56)" >Delete</button>

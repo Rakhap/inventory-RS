@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus asdfasdfasdfasdfasdasdf' wire:click="destroy(53)" >Delete</button><?php /**PATH D:\RS UMM\Inventaris Alkes\inventory-RS\storage\framework\views/4cb171dc9811b762dfdc685f03655ea4.blade.php ENDPATH**/ ?>

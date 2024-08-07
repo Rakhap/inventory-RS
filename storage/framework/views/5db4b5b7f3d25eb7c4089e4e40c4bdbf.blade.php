@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Infant Warmer' wire:click="destroy(31)" >Delete</button>

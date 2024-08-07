@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Pasien Monitor ' wire:click="destroy(105)" >Delete</button><?php /**PATH D:\RS UMM\Inventaris Alkes\inventory-RS\storage\framework\views/143d0f761eab1ca7b9dff7b5b2157204.blade.php ENDPATH**/ ?>

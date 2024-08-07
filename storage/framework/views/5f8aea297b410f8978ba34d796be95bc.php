@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Tensimeter' wire:click="destroy(63)" >Delete</button><?php /**PATH D:\RS UMM\Inventaris Alkes\inventory-RS\storage\framework\views/7568e6f58eaa5b67a9076f7ab6eb3877.blade.php ENDPATH**/ ?>

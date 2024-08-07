@@ -1,0 +1,1 @@
+<svg x-show="!showDropdownItems" class="w-5 h-5" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m19 9l-7 6l-7-6"/></svg><?php /**PATH D:\RS UMM\Inventaris Alkes\inventory-RS\storage\framework\views/442ceac57be8125d3c32b65e8d23b4b0.blade.php ENDPATH**/ ?>

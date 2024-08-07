@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Infant Warmer' wire:click="destroy(93)" >Delete</button><?php /**PATH D:\RS UMM\Inventaris Alkes\inventory-RS\storage\framework\views/367305281d423d178ff6602c9752a090.blade.php ENDPATH**/ ?>
