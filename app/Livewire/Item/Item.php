@@ -12,21 +12,23 @@ use Maatwebsite\Excel\Facades\Excel;
 class Item extends Component
 {
     use WithFileUploads;
+
     public $showModal = false;
+
     #[Validate('file|required|mimes:csv,xls,xlsx')]
-    public $excelFile;
+    public $excelFile = null;
     public function render()
     {
         return view('livewire.item.item')->layout('layouts.app', [
             'title' => 'Inventory'
-        ]);;
+        ]);
     }
 
     public function uploadFile()
-    {   
-       Excel::import(new InventoryImport, $this->excelFile);
+    {
+        Excel::import(new InventoryImport, $this->excelFile);
         $this->showModal = false;
-        $this->dispatch('pg:eventRefreshs-TableItem');
+        $this->dispatch('pg:eventRefresh-TableItem');
     }
-    
+
 }

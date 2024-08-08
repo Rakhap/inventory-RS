@@ -3,6 +3,7 @@
 namespace App\Livewire\Item;
 
 use App\Livewire\Forms\Item\ItemForm;
+use App\Models\Room;
 use Livewire\Attributes\Title;
 use Livewire\Component;
 use App\Models\Inventory;
@@ -12,7 +13,7 @@ class EditItem extends Component
     public ItemForm $itemForm;
     public $id;
     public Inventory $updateData;
-
+    public object $rooms;
     public function update()
     {
         $this->itemForm->validate();
@@ -26,8 +27,10 @@ class EditItem extends Component
     #[Title('Edit Item')]
     public function render($id = null)
     {
-
-        $inventory = Inventory::find($this->id);
+        $inventory = Inventory::where('id', $this->id)
+            ->with('room')
+            ->first();
+        $this->rooms = Room::all();
 
         if ($inventory) {
             $this->updateData = $inventory;
@@ -42,8 +45,10 @@ class EditItem extends Component
                 'kondisi_alat' => $inventory->kondisi_alat,
                 'daya' => $inventory->daya,
                 'stock' => $inventory->stock,
-                'item_keterangan' => $inventory->item_keterangan
+                'item_keterangan' => $inventory->item_keterangan,
+                'room_id' => $inventory->room->id
             ]);
+
         }else{
             session()->flash('item-error', 'Id barang tidak ditemukan');
             $this->redirectIntended('/inventory', navigate: true);

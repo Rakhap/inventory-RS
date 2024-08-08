@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus testing' wire:click="destroy(4)" >Delete</button><?php /**PATH /Users/achmadrifqi/Documents/Development/Laravel/RSUMM/inventory-RS/storage/framework/views/d29022d846f3c7b2522757e643418a60.blade.php ENDPATH**/ ?>

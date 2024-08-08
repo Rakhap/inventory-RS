@@ -73,10 +73,11 @@ class ItemForm extends Form
     ])]
     public string | null $stock = "";
 
-    #[Validate(['room_id' => 'required'], message: [
+    #[Validate(['room_id' => 'required|numeric'], message: [
         'room_id.required' => 'ruangan tidak boleh kosong.',
+        'room_id.numeric' => 'input ruangan tidak valid',
     ])]
-    public $room_id = "";
+    public $room_id = null;
 
 
 }

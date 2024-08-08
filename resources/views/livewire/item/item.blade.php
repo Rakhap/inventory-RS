@@ -32,8 +32,6 @@
 
             </x-slot:dialog-content>
 
-            <x-slot:dialog-action>
-            </x-slot:dialog-action>
         </x-dialog>
     </x-section>
     <x-section>

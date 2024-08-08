@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Blade;
 final class TableRoom extends PowerGridComponent
 {
     use WithExport;
-
+    public string $tableName = 'TableRoom';
     public function setUp(): array
     {
         $this->showCheckBox();
@@ -35,7 +35,7 @@ final class TableRoom extends PowerGridComponent
                 ->showRecordCount(),
         ];
     }
- 
+
 
     public function datasource(): Builder
     {
@@ -90,7 +90,7 @@ final class TableRoom extends PowerGridComponent
                 })
         ];
     }
-    
+
     public function destroy(Room $rowId)
     {
         $post = Room::find($rowId);

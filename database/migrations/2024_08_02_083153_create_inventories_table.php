@@ -23,7 +23,7 @@ return new class extends Migration
             $table->string('kondisi_alat')->nullable();
             $table->string('stock')->nullable();
             $table->string('daya')->nullable();
-            $table->bigInteger('room_id')->default(null);
+            $table->bigInteger('room_id')->nullable();
             $table->string('item_keterangan')->nullable();
             $table->timestamps();
         });

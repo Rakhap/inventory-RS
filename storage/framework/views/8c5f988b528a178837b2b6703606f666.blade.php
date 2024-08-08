@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus saveItem' wire:click="destroy(2)" >Delete</button>

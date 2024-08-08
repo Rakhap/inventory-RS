@@ -67,27 +67,33 @@
                     <x-input name="stock" type="number" wire:model.blur="itemForm.stock" />
                     <x-input-error for="itemForm.stock" />
                 </div>
-
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="w-full">
                     <x-label>Keterangan*</x-label>
                     <x-input name="item_keterangan" type="text" wire:model.blur="itemForm.item_keterangan" />
                     <x-input-error for="itemForm.item_keterangan" />
                 </div>
-                <div>
-               
-
-                    <select wire:model="itemForm.room_id">
-                        <option value="AL">Alabama</option>
-                        <option value="AK">Alaska</option>
-                        <option value="AZ">Arizona</option>
-                    
-                    </select>
+                <div class="w-full">
+                    <x-label>Ruangan*</x-label>
+                    <x-select-input wire:model.blur="itemForm.room_id">
+                        <x-slot:options>
+                            <x-option value="null" selected>-</x-option>
+                            @foreach($rooms as $room)
+                                <x-option value="{{$room->id}}" wire:key="{{$room->id}}">{{$room->room_name}}</x-option>
+                            @endforeach
+                        </x-slot:options>
+                    </x-select-input>
+                    <x-input-error for="itemForm.room_id" />
                 </div>
             </div>
             <div class="flex flex-wrap justify-end gap-4">
-                <x-button type="submit">Add</x-button>
-                <x-link variant="btn-outline" url="/inventory">Cancel</x-link>
+                <x-button type="submit" class="w-max" wire:loading.attr="disabled" wire:target="saveItem">
+                    <span wire:loading.class="hidden" wire:target="saveItem">Submit</span>
+                    <span wire:loading wire:target="saveItem">Loading ..</span>
+                </x-button>
+                <x-link variant="btn-outline" url="/inventory">Batal</x-link>
             </div>
-
         </form>
+    </div>
 </x-section>

@@ -2,7 +2,6 @@
 
 namespace App\Livewire\Item;
 
-use App\Livewire\Forms\Item\ItemForm;
 use App\Models\Inventory;
 use Illuminate\Database\Eloquent\Builder;
 use PowerComponents\LivewirePowerGrid\Button;
@@ -38,7 +37,6 @@ final class TableItem extends PowerGridComponent
             Footer::make()
                 ->showPerPage()
                 ->showRecordCount(),
-
         ];
 
     }
@@ -46,7 +44,8 @@ final class TableItem extends PowerGridComponent
 
     public function datasource(): ?Builder
     {
-        return Inventory::query();
+        return Inventory::query()
+            ->with('room');
     }
 
     public function relationSearch(): array
@@ -56,15 +55,15 @@ final class TableItem extends PowerGridComponent
 
     public function fields(): PowerGridFields
     {
-        return PowerGrid::fields();
-
+        return PowerGrid::fields()
+            ->add('room.room_name');
     }
 
     public function columns(): array
     {
 
         return [
-            Column::make('Ruang','room_name')
+            Column::make('Ruangan',"room.room_name")
                 ->searchable()
                 ->sortable(),
             Column::make('Nama Barang', 'item_name')
@@ -110,15 +109,14 @@ final class TableItem extends PowerGridComponent
         ];
     }
 
-    
+
     public function actions(Inventory $row): array
     {
         $id = $row->id;
-        $itemName = $row->item_name;
         return [
             Button::add('edit')
             ->slot("<a href='/inventory/$id' wire:navigate class='pg-btn-white'>Edit</a>"),
-            
+
             Button::add('delete')
             ->render(function ($row) {
                 return Blade::render(<<<HTML
@@ -127,7 +125,7 @@ final class TableItem extends PowerGridComponent
                 })
             ];
         }
-        public function destroy(Inventory $rowId)
+        public function destroy(Inventory $rowId): void
         {
             $post = Inventory::find($rowId);
             if ($post) {
@@ -136,6 +134,4 @@ final class TableItem extends PowerGridComponent
                 $this->redirectIntended('/inventory', navigate: true);
             }
     }
-
-
 }

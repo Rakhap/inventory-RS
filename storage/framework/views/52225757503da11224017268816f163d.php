@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Monitor' wire:click="destroy(6)" >Delete</button><?php /**PATH /Users/achmadrifqi/Documents/Development/Laravel/RSUMM/inventory-RS/storage/framework/views/534aa318a29b0a8eb21425f9c150c46d.blade.php ENDPATH**/ ?>

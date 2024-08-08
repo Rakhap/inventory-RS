@@ -18,17 +18,10 @@ class CreateItem extends Component
     {
         $this->rooms = Room::all();
         return view('livewire.item.create-item');
-        
-    }
 
-
-    public function updating($property, $value){
-        dd($property);
     }
-    
     public function saveItem(){
-        dd($this->itemForm);
-        //  $this->itemForm->validate();
+        $this->itemForm->validate();
         Inventory::create([
             'item_name' => $this->itemForm->item_name,
             'item_brand' => $this->itemForm->item_brand,
@@ -41,12 +34,11 @@ class CreateItem extends Component
             'daya' => $this->itemForm->daya,
             'stock'=> $this->itemForm->stock,
             'item_keterangan'=>$this->itemForm->item_keterangan,
-            'room_id' =>$this->itemForm->room_id
+            'room_id' => (int) $this->itemForm->room_id
         ]);
 
-    
         $this->dispatch('inventory-created')->to(Item::class);
-        $this->redirectIntended('/inventory', navigate:true);
+        $this->redirect('/inventory', navigate:true);
     }
 
     public function refreshtable()

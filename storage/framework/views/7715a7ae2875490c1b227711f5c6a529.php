@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus ESU' wire:click="destroy(6)" >Delete</button><?php /**PATH /Users/achmadrifqi/Documents/Development/Laravel/RSUMM/inventory-RS/storage/framework/views/58f0ab300301d00519ecf183242c36ff.blade.php ENDPATH**/ ?>

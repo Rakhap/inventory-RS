@@ -4,7 +4,7 @@ use App\Livewire\Item\CreateItem;
 use App\Livewire\Item\EditItem;
 use App\Livewire\Item\Export;
 use App\Livewire\Item\TableItem;
-use App\Livewire\Room\CreateRoom;
+use App\Livewire\Room\Room;
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Auth\Login;
 use App\Livewire\Dashboard;
@@ -23,7 +23,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/inventory/form', CreateItem::class)->name('create-item');
 
     Route::get('/inventory/{id}', EditItem::class)->name('item.edit');
-    Route::get('/room',CreateRoom::class)->name('room');
+    Route::get('/room',Room::class)->name('room');
 });
 // Route::delete('/inventory', EditItem::class)->name('item.delete');
 // Route::get('/export', Export::class)->name('export');

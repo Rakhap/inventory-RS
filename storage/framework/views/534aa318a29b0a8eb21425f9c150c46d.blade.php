@@ -1,0 +1,1 @@
+<button class="pg-btn-white" wire:confirm='Anda akan menghapus Monitor' wire:click="destroy(6)" >Delete</button>

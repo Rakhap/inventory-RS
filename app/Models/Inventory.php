@@ -21,11 +21,12 @@ class Inventory extends Model
         'kondisi_alat',
         'daya',
         'item_keterangan',
-        'stock'
+        'stock',
+        'room_id'
     ];
 
     public function room() : BelongsTo
     {
         return $this->belongsTo(Room::class);
     }
-} 
+}

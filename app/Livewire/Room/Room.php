@@ -3,26 +3,24 @@
 namespace App\Livewire\Room;
 
 use Livewire\Component;
-use App\Models\Room;
+use App\Models\Room as RoomModel;
 
-
-
-class CreateRoom extends Component
+class Room extends Component
 {
     public $showModal = false;
-    public $room_name;
+    public $room_name = "";
     public function render()
     {
         return view('livewire.room.room')->layout('layouts.app', [
             'title' => 'Ruangan'
-        ]);;
+        ]);
     }
     public function save(){
-        Room::create([
+        RoomModel::create([
             'room_name' => $this->room_name
         ]);
 
-        $this->showModal=false;
-        $this->dispatch('pg:eventRefreshs-table-room ');
+        $this->showModal = false;
+        $this->dispatch('pg:eventRefresh-TableRoom ')->to(TableRoom::class);
     }
 }

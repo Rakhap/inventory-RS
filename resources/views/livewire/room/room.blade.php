@@ -2,12 +2,12 @@
     <div class="w-full">
         <x-section>
             <div class="grid grid-cols-1 md:grid-cols-2 ">
-                <div class="flex gap-2 flex-wrap "> 
+                <div class="flex gap-2 flex-wrap ">
                 <x-button type="button" x-on:click="$wire.showModal = !$wire.showModal">Tambah
                         Ruangan</x-button>
                 </div>
             </div>
-            <x-dialog id="testingDialog" wire:model.live="showModal">
+            <x-dialog id="createRoomDialog" wire:model.live="showModal">
                 <x-slot:dialog-content>
                     <form wire:submit="save" class="space-y-4">
                         <div>
@@ -21,7 +21,7 @@
                         </x-button>
                         <x-button variant="btn-outline"
                             x-on:click="$wire.showModal = !$wire.showModal">Cancel</x-button>
-                    </div>
+                        </div>
                     </form>
                 </x-slot:dialog-content>
             </x-dialog>
